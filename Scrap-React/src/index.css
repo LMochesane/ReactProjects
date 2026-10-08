@@ -112,7 +112,10 @@ h1{
   font-size: 20px;
 }
 
-
+.shortIntro2{
+  font-size: 20px;
+  text-align: center;
+}
 
 .myExpertise {
   text-align: center;
@@ -161,7 +164,7 @@ h1{
 .cards{
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 30px;
+  gap: 15px;
   margin: 5 auto;
   justify-content:center;
 }
@@ -243,6 +246,88 @@ h1{
   padding: 10px 20px;
   border: 2px;
   border-color: navy;
+}
+
+.MyWork {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  color: rgb(8, 11, 78);
+}
+
+.MyWork h4{
+  text-decoration: underline;
+  font-family: Georgia (serif);
+}
+
+.project-1{
+  margin: 0 auto;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: #C0C0C0;
+  border: 2px solid #334155;
+  box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.project-1-img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #334155;
+  box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
+}
+
+.project-1-text{
+  flex: 1;
+  color: rgb(8, 11, 78);
+}
+
+.snippet-text h3{
+  font-size: 23px;
+}
+
+.project-2{
+  margin: 0 auto;
+  margin-top: 30px;
+  justify-content: center;
+  background-color: #C0C0C0;
+  border: 2px solid #334155;
+  box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+  
+.project-2-img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #334155;
+  box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
+}
+
+.project-2-text{
+  flex: 1;
+  color: rgb(8, 11, 78);
+}
+
+.snippet-text h3{
+  font-size: 23px;
 }
 
 

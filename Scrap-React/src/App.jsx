@@ -4,6 +4,7 @@ import SnippetBand from "./Snippet.jsx"
 import Footer from "./Footer.jsx"
 import ConnectButton from "./ConnectButton.jsx"
 import AboutMe from "./AboutMe.jsx"
+import Projects from "./Projects.jsx"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <SnippetBand/>
     <AboutMe/>
     <Cards/>
+    <Projects/>
     <ConnectButton/>
     <Footer/>
     </div>

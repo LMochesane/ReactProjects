@@ -15,6 +15,19 @@ function AboutMe() {
             through code, and growing into a well-rounded front-end developer.
           </p>
         </div>
+
+        <div className="myPeak">
+           <h2>What I do...</h2>
+        </div>
+        <div className="shortIntro2">
+          <p>Responsive Website Development</p>
+          <p>React Development</p>
+          <p>Front-end UI/UX Development</p>
+          <p>Javascript Functionality</p>
+          <p>Mobile-friendly Design</p>
+        </div>
+
+
         </section>
     )
 }

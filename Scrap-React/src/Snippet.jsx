@@ -21,24 +21,3 @@ function SnippetBand () {
 }
 
 export default SnippetBand
-
-
-
-
-
-// {/* <section class="me-block">
-//   <div class="myself">
-//    <img src="images/Me ALX.jpg" class="side-image">
-//     <div class="opening-statement">
-//         <h2>Hello! I'm Relebohile Mochesane.
-//          <br>
-//           I'm all about development, and protecting it!
-//         </h2>
-//         <br>
-//          <p>In a world where every click, every connection, and every innovation depends on trust, security must be the foundation on which everything is built.
-//          <br>
-//          <br>
-//          This world is not just about code and defending networks - But about being a guardian of possibility.<br>I stand firm being that guardian.</p>
-//      </div>
-//   </div>
-// </section> */}
