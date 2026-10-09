@@ -70,6 +70,7 @@ function Cards() {
                 FIGMA
                   <p>Visualising and designing concepts before construction.</p>
                 </div>
+                < br/>
 
             </div>
         </section>

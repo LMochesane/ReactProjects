@@ -17,8 +17,8 @@ function App() {
     <AboutMe/>
     <Cards/>
     <Projects/>
-    <ConnectButton/>
-    <Footer/>
+    {/* <ConnectButton/>
+    <Footer/> */}
     </div>
     </>
    );

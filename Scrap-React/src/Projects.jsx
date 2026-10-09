@@ -3,7 +3,7 @@ function Projects () {
         <>
         <div className="MyWork">
             <h4>
-                <p>MY WORK</p>
+                <p>WHAT I'VE BUILT</p>
             </h4>
             <p>Below I present the projects I have built until date.</p>
         </div>
@@ -28,7 +28,7 @@ function Projects () {
                     <p>- Ensuring the website's ineractivity  was maintained</p>
                     <p>- A sharpened sense of detail to obtain a seamless user experience</p>
                     < br/>
-                    <h5>React | Javascript | HTML | CSS</h5>
+                    <h5>React | HTML | CSS</h5>
                 
             </div>
         </section>
@@ -37,16 +37,23 @@ function Projects () {
         <section className="project-2">
 
             <div className="project-2-text">
-                <h3>Hello! I'm Relebohile Mochesane.</h3>
-                <h3> Engineering clear, user-focused web interfaces.</h3>
+                <h2>Better Drivers Driving School</h2>
+                <br />
+                <p>A fully funtional website built using HTML, React and CSS. It stands as the first project and it is through it that I put 
+                    into practice some fundamentals of react. It was built from scratch using React as the primary tool, showcasing my approach to web development.</p>
 
-                <h3>Every line of code is a chance to shape user experience - I focus on making the experience seamless, efficient and reliable.</h3>
+                    <h3>Major lessons from building this portfolio website include:</h3>
+                    <p>- Creating and maintaining reusable components</p>
+                    <p>- Ensuring the website's ineractivity  was maintained</p>
+                    <p>- A sharpened sense of detail to obtain a seamless user experience</p>
+                    < br/>
+                    <h5>React | HTML | CSS</h5>
             </div>
 
             <div className="project-2-image">
                 <img
                     className="project-2-img"
-                    src="/src//assets/meHeadShot.jpg" 
+                    src="/src//assets/BetterDrivers.png" 
                     alt Relebohile Mochesane
                 />
             </div>
