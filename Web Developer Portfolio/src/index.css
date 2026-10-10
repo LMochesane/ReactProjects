@@ -1,7 +1,7 @@
-h1{
+/* h1{
   margin-top: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+} */
 
 .navbar {
   background-color: rgb(8, 11, 78);
@@ -11,7 +11,7 @@ h1{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   width: 100%;
-  height: 70px;
+  height: 45px;
   justify-content: center;
   display: flex;
   gap: 0.01rem;
@@ -21,12 +21,12 @@ h1{
 
 .navbar a{
   float: right;
-  padding: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding: 8px;
+  /* padding-right: 10px;
+  padding-left: 10px; */
   text-decoration: none;
   text-align: center;
-  font-size: 18px;
+  font-size: 13px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(255, 255, 255);
   color: rgb(8, 11, 78);
@@ -34,8 +34,8 @@ h1{
   position: top;
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  border-bottom-left-radius: 8px;
+  /* border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px; */
 }  
 
 .navbar a:hover {
@@ -53,7 +53,7 @@ h1{
 }
 
 .snippet-band{
-  margin-top: 55px;
+  margin-top: 37px;
   background-color: #C0C0C0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
@@ -61,13 +61,12 @@ h1{
   flex-direction: row;
   align-items: center;
   gap: 30px;
-  padding: 20px;
   border-radius: 10px;
 }
   
 .snippet-img{
-  width: 400px;
-  height: 400px;
+  width: 268px;
+  height: 268px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid #334155;
@@ -77,19 +76,25 @@ h1{
 .snippet-text{
   flex: 1;
   color: rgb(8, 11, 78);
+  margin-bottom: 50px;
 }
 
-.snippet-text h3{
-  font-size: 23px;
+.snippet-text p{
+  font-size: 18px;
+}
+
+.snippet-text h1{
+  font-size: 25px;
 }
 
 .mystory{ 
   background-color: rgb(200, 200, 200, 0.3);
+  box-shadow: 0 4px 12px rgba(1, 1, 1, 1);
   color: rgb(8, 11, 78);
   justify-content: center;
   border: 10px;
-  width: 50%;
-  border: 2px solid #334155;
+  width: 60%;
+  /* border: 2px solid #334155; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -98,7 +103,7 @@ h1{
   /* text-align: center;
   align-items: center;
   float: center; */
-  padding: 10px;
+  padding: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 16px;
 }
@@ -106,21 +111,22 @@ h1{
 .myPeak{
   text-align: center;
   width: 100%;
+  font-size: 14px;
 }
 
 .shortIntro{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .shortIntro2{
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
 .myExpertise {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   color: rgb(8, 11, 78);
 }
 
@@ -130,16 +136,16 @@ h1{
 }
 
 .tech-card{
-  background-color: #C0C0C0;
+  background-color: #D3D3D3;
   border: 2px solid #334155;
   box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
   color: rgb(8, 11, 78);
   justify-content: center;
   text-decoration: none;
-  font-size: 20px;
-  padding: 40px;
-  border: 30%;
-  border-radius: 20px;
+  font-size: 14px;
+  padding: 30px;
+  /* border: 10%; */
+  border-radius: 10px;
   width: 50%;
   height: 50%;
   margin-left: 85px;
@@ -152,7 +158,8 @@ h1{
 .tech-card-img{
   width: 50px;
   height: 50px;
-  margin-left: 110px;
+  display: block;
+  margin: 0 auto;
 }
 
 .tech-card:hover{
@@ -164,21 +171,21 @@ h1{
 .cards{
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 15px;
-  margin: 5 auto;
+  gap: 5px;
+  margin: 0 auto;
   justify-content:center;
 }
 
 .tech-card p{
-  visibility: hidden 0.1s ease;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
   transition: opacity 1s ease;
 }
 
-.tech-card:hover p{
+/* .tech-card:hover p{
   opacity: 1;
   visibility: visible;
-}
+} */
 
 .contactMe:hover {
   
@@ -248,11 +255,16 @@ h1{
   border-color: navy;
 }
 
+.myProjects{
+  margin-top: 0 auto;
+}
+
 .MyWork {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 25px;
+  font-size: 16px;
   color: rgb(8, 11, 78);
+  margin-top: 2px;
 }
 
 .MyWork h4{
@@ -262,7 +274,7 @@ h1{
 
 .project-1{
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
   justify-content: center;
   background-color: #C0C0C0;
   border: 2px solid #334155;
@@ -272,14 +284,14 @@ h1{
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
-  padding: 20px;
+  gap: 15px;
+  padding: 5px;
   border-radius: 10px;
 }
 
 .project-1-img{
-  width: 400px;
-  height: 400px;
+  width: 268px;
+  height: 268px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid #334155;
@@ -289,10 +301,7 @@ h1{
 .project-1-text{
   flex: 1;
   color: rgb(8, 11, 78);
-}
-
-.snippet-text h3{
-  font-size: 23px;
+  font-size: 13px;
 }
 
 .project-2{
@@ -309,13 +318,13 @@ h1{
   flex-direction: row;
   align-items: center;
   gap: 30px;
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
 }
   
 .project-2-img{
-  width: 480px;
-  height: 350px;
+  width: 322px;
+  height: 235px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid #334155;
@@ -325,11 +334,12 @@ h1{
 .project-2-text{
   flex: 1;
   color: rgb(8, 11, 78);
+  font-size: 13px;
 }
 
-.snippet-text h3{
+/* .snippet-text h3{
   font-size: 23px;
-}
+} */
 
 
 

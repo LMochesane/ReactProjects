@@ -12,9 +12,9 @@ function SnippetBand () {
 
             <div className="snippet-text">
                 <h1>Hello! I'm Relebohile Mochesane.</h1>
-                <h3> Engineering clear, user-focused web interfaces.</h3>
+                <p> Engineering clear, user-focused web interfaces.</p>
 
-                <h3>Every line of code is a chance to shape user experience - I focus on making the experience seamless, efficient and reliable.</h3>
+                <p>Every line of code is a chance to shape user experience - I focus on making the experience seamless, efficient and reliable.</p>
             </div>
         </section>
     )
