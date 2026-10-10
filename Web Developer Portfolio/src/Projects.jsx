@@ -41,7 +41,7 @@ function Projects () {
             <section className="project-2">
 
                  <div className="project-2-text">
-                     <h2>Better Drivers Driving School</h2>
+                     <h2>Better Drivers Driving School(not live yet)</h2>
                      <br />
                      <p>A fully funtional website built using HTML, React and CSS. It stands as the first project and it is through it that I put 
                          into practice some fundamentals of react. It was built from scratch using React as the primary tool, showcasing my approach to web development.</p>
