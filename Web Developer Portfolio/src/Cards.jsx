@@ -1,3 +1,10 @@
+import html from './assets/html.png';
+import css from './assets/css.jpg';
+import figma from './assets/figma.jpg';
+import github from './assets/github.jpg';
+import javassript from './assets/javassript.png';
+import reactjs from './assets/reactjs.jpg';
+
 function Cards() {
     return(
         <section className="Expertise-Cards">
@@ -13,8 +20,8 @@ function Cards() {
                <div className="tech-card">
                 <img
                     className="tech-card-img"
-                    src="/src//assets/html.png" 
-                    alt Relebohile Mochesane
+                    src={html} 
+                    alt="html"
                 />
                 HTML5
                   <p>To provide clean and structured content.</p>
@@ -23,8 +30,8 @@ function Cards() {
                 <div className="tech-card">
                     <img
                     className="tech-card-img"
-                    src="/src//assets/css.jpg" 
-                    alt Relebohile Mochesane
+                    src={css} 
+                    alt="css"
                 />
                 CSS3
                   <p>Styling interfaces with design in mind.</p>
@@ -33,8 +40,8 @@ function Cards() {
                 <div className="tech-card">
                     <img
                     className="tech-card-img"
-                    src="/src//assets/javassript.png" 
-                    alt Relebohile Mochesane
+                    src={javassript} 
+                    alt="Javascript"
                 />
                 JAVASCRIPT
                   <p>Making websites interactive, functional and dynamic.</p>
@@ -43,8 +50,8 @@ function Cards() {
                 <div className="tech-card">
                     <img
                     className="tech-card-img"
-                    src="/src//assets/reactjs.jpg" 
-                    alt Relebohile Mochesane
+                    src={reactjs} 
+                    alt="react"
                 />
                 
                 REACT
@@ -54,8 +61,8 @@ function Cards() {
                 <div className="tech-card">
                     <img
                     className="tech-card-img"
-                    src="/src//assets/github.jpg" 
-                    alt Relebohile Mochesane
+                    src={github} 
+                    alt="github"
                 />
                 GITHUB
                   <p>Managing projects, code, changes and progress.</p>
@@ -64,8 +71,8 @@ function Cards() {
                 <div className="tech-card">
                     <img
                     className="tech-card-img"
-                    src="/src//assets/figma.jpg" 
-                    alt Relebohile Mochesane
+                    src={figma} 
+                    alt="figma"
                 />
                 FIGMA
                   <p>Visualising and designing concepts before construction.</p>

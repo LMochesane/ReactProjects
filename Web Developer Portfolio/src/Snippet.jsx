@@ -1,3 +1,5 @@
+import meHeadShot from './assets/meHeadShot.jpg';
+
 function SnippetBand () {
     return(
         <section className="snippet-band">
@@ -5,8 +7,8 @@ function SnippetBand () {
             <div className="snippet-image">
                 <img
                     className="snippet-img"
-                    src="/src//assets/meHeadShot.jpg" 
-                    alt Relebohile Mochesane
+                    src={meHeadShot}
+                    alt="Relebohile Mochesane"
                 />
             </div>
 

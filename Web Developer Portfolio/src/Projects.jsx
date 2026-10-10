@@ -1,3 +1,6 @@
+import meHeadShot from './assets/meHeadShot.jpg';
+import BetterDrivers from './assets/BetterDrivers.png';
+
 function Projects () {
     return(
         <>
@@ -13,8 +16,8 @@ function Projects () {
                  <div className="project-1-image">
                      <img
                          className="project-1-img"
-                         src="/src//assets/meHeadShot.jpg" 
-                         alt Relebohile Mochesane
+                         src={meHeadShot} 
+                         alt="Relebohile Mochesane"
                      />
                  </div>
 
@@ -54,8 +57,8 @@ function Projects () {
                  <div className="project-2-image">
                      <img
                          className="project-2-img"
-                         src="/src//assets/BetterDrivers.png" 
-                         alt Relebohile Mochesane
+                         src={BetterDrivers} 
+                         alt="BetterDrivers"
                      />
                  </div>
 
