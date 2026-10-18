@@ -1,0 +1,49 @@
+.navigation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: yellow;
+    gap: 1rem;
+}
+
+.Drive-Better{
+    /* align-items: left; */
+}
+
+.nav-links{
+    display: flex;
+    gap: 0,01rem;
+    padding: 10px;
+    margin: 0px;
+}
+
+.nav-links a{
+    background-color: green;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* 
+.navigation{
+    width: 80%;
+    display: flex;
+    background-color: green;
+    overflow: hidden;
+    justify-content: center;
+    position: fixed;
+    align-items: center
+
+} */
