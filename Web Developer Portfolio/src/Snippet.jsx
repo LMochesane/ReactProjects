@@ -14,9 +14,10 @@ function SnippetBand () {
 
             <div className="snippet-text">
                 <h1>Hello! I'm Relebohile Mochesane.</h1>
-                <p> Engineering clear, user-focused web interfaces.</p>
+                <p>Software Developer | Building thoughtful, user-focused digital solutions.</p>
 
-                <p>Every line of code is a chance to shape user experience - I focus on making the experience seamless, efficient and reliable.</p>
+                <p>I take interest in turning ideas into funtional software. My approach centres on writing clean, maintainable code and
+                    developing solutions that are intuitive, efficient , and reliable.</p>
             </div>
         </section>
     )
