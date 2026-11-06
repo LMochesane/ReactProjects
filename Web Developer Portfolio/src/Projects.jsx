@@ -1,5 +1,5 @@
 import meHeadShot from './assets/meHeadShot.jpg';
-import BetterDrivers from './assets/BetterDrivers.png';
+import SprintDesk from './assets/SprintDesk.jpg';
 import './Projects.css'
 
 function Projects () {
@@ -24,7 +24,7 @@ function Projects () {
 
                  <div className="project-1-text">
                      <h2>This very website</h2>
-                     <br />
+                     {/* <br /> */}
                      <div className="projectDescription">
                           <p>A fully funtional website built using HTML, React and CSS. It stands as the first project and it is through it that I put 
                               into practice some fundamentals of react. It was built from scratch using React as the primary tool, showcasing my approach to web development.
@@ -35,7 +35,7 @@ function Projects () {
                          <p>- Creating and maintaining reusable components</p>
                          <p>- Ensuring the website's ineractivity  was maintained</p>
                          <p>- A sharpened sense of detail to obtain a seamless user experience</p>
-                         < br/>
+                         {/* < br/> */}
                          <h5>React | HTML | CSS</h5>
                 
                  </div>
@@ -45,8 +45,8 @@ function Projects () {
             <section className="project-2">
 
                  <div className="project-2-text">
-                     <h2>SprintDesk(not live yet)</h2>
-                     <br />
+                     <h2>SprintDesk</h2>
+                     {/* <br /> */}
                      <div className="projectDescription">
                           <p>SprintDesk: A professional, enterprise-grade Kanban task management web application engineered with React,
                               Vite, custom CSS variables, and granula RBAC security scoping. Currently showcasing advanced client-side state and
@@ -58,16 +58,23 @@ function Projects () {
                          <p>- React & Vite</p>
                          <p>- Granula RBAC Security Scoping</p>
                          <p>- State Management & Persistance</p>
-                         < br/>
+                         {/* < br/> */}
                          <h5>Javascript | React | LocalStorage | CSS-Grid</h5>
                  </div>
 
                  <div className="project-2-image">
+                    <a href="https://lmochesane.github.io/SprintDesk/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="project-image-link"
+                          aria-label="View SprintDesk project"
+                          >
                      <img
                          className="project-2-img"
-                         src={BetterDrivers} 
-                         alt="BetterDrivers"
-                     />
+                         src={SprintDesk} 
+                         alt="SprintDesk"
+                        />
+                    </a>
                  </div>
 
             

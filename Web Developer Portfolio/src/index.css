@@ -120,6 +120,7 @@
 
 .shortIntro{
   font-size: 16px;
+  text-align: center;
 }
 
 .shortIntro2{
@@ -287,4 +288,4 @@
     width: 100%;
     margin-left: 0;
   }
-
+}
