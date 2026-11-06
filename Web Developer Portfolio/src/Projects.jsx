@@ -1,5 +1,6 @@
 import meHeadShot from './assets/meHeadShot.jpg';
 import BetterDrivers from './assets/BetterDrivers.png';
+import './Projects.css'
 
 function Projects () {
     return(
@@ -24,10 +25,13 @@ function Projects () {
                  <div className="project-1-text">
                      <h2>This very website</h2>
                      <br />
-                     <p>A fully funtional website built using HTML, React and CSS. It stands as the first project and it is through it that I put 
-                         into practice some fundamentals of react. It was built from scratch using React as the primary tool, showcasing my approach to web development.</p>
+                     <div className="projectDescription">
+                          <p>A fully funtional website built using HTML, React and CSS. It stands as the first project and it is through it that I put 
+                              into practice some fundamentals of react. It was built from scratch using React as the primary tool, showcasing my approach to web development.
+                          </p>
+                     </div>
 
-                         <h3>Major lessons from building this portfolio website include:</h3>
+                         <h3>Highlights from this project:</h3>
                          <p>- Creating and maintaining reusable components</p>
                          <p>- Ensuring the website's ineractivity  was maintained</p>
                          <p>- A sharpened sense of detail to obtain a seamless user experience</p>
@@ -41,19 +45,21 @@ function Projects () {
             <section className="project-2">
 
                  <div className="project-2-text">
-                     <h2>Better Drivers Driving School(not live yet)</h2>
+                     <h2>SprintDesk(not live yet)</h2>
                      <br />
-                     <p>A broucher-like website for a fictional driving school, built with React, Javascript and CSS. Designed to showcase the services offered 
-                        by the driving school through a clean, user-friendly interface and mobile-friendly layouts.
-                     </p>
+                     <div className="projectDescription">
+                          <p>SprintDesk: A professional, enterprise-grade Kanban task management web application engineered with React,
+                              Vite, custom CSS variables, and granula RBAC security scoping. Currently showcasing advanced client-side state and
+                              analytics, with an upcoming goal to integrate a robust C#/.NET backend.
+                          </p>
+                     </div>
 
-                         <h3>Highlights from building this website include:</h3>
-                         <p>- React Routers</p>
-                         <p>- Javascript Interactivity</p>
-                         <p>- Project Architecture and Development</p>
-                         <p>- UI/UX Design</p>
+                         <h3>Highlights from this project:</h3>
+                         <p>- React & Vite</p>
+                         <p>- Granula RBAC Security Scoping</p>
+                         <p>- State Management & Persistance</p>
                          < br/>
-                         <h5>Javascript | React | HTML | CSS</h5>
+                         <h5>Javascript | React | LocalStorage | CSS-Grid</h5>
                  </div>
 
                  <div className="project-2-image">

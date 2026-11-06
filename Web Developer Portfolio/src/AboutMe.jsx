@@ -7,12 +7,11 @@ function AboutMe() {
 
   
         <div className="shortIntro">
-          <p>I'm a web developer who enjoys turning ideas into interactive and meaningful digital experiences. I enjoy taking a concept from an idea and developing it into
-            something functional, responsive and easy to use.
+          <p>I'm a software developer who enjoys solving problems through code and transforming ideas into practical digital solutions.
             <br />
             <br />
-            I'm constantly learning, experimenting and challenging myself through real-world projects. I'm particularly interested in creating clean user experiences, solving problems
-            through code, and growing into a well-rounded front-end developer.
+            I'm continuously learning and challenging myself through hands-on projects, with a particular interest in application development, clean code, and creating
+            meaningful user experiences.
           </p>
         </div>
 
@@ -20,15 +19,13 @@ function AboutMe() {
            <h2>What I do...</h2>
         </div>
         <div className="shortIntro2">
-          <p>Responsive Website Development</p>
+          <p>Responsive Design</p>
           <p>React Development</p>
-          <p>Front-end UI/UX Development</p>
-          <p>Javascript Functionality</p>
-          <p>Mobile-friendly Design</p>
+          <p>Application Development</p>
+          <p>Javascript Application Logic</p>
+          <p>User Interface Development</p>
         </div>
-
-
-        </section>
+       </section>
     )
 }
 
