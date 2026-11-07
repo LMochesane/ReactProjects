@@ -17,7 +17,7 @@ function SnippetBand () {
                 <p>Software Developer | Building thoughtful, user-focused digital solutions.</p>
 
                 <p>I take interest in turning ideas into funtional software. My approach centres on writing clean, maintainable code and
-                    developing solutions that are intuitive, efficient , and reliable.</p>
+                    developing solutions that are intuitive, efficient, and reliable.</p>
             </div>
         </section>
     )
