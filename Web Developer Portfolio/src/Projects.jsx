@@ -48,9 +48,9 @@ function Projects () {
                      <h2>SprintDesk</h2>
                      {/* <br /> */}
                      <div className="projectDescription">
-                          <p>SprintDesk: A professional, enterprise-grade Kanban task management web application engineered with React,
+                          <p>A task management web application engineered with React,
                               Vite, custom CSS variables, and granula RBAC security scoping. Currently showcasing advanced client-side state and
-                              analytics, with an upcoming goal to integrate a robust C#/.NET backend.
+                              analytics, with an upcoming goal to integrate a C#/.NET backend.
                           </p>
                      </div>
 
