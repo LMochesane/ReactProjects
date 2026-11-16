@@ -79,8 +79,12 @@
 }
 
 .project-2-img:hover{
-  transform: translateY(4px);
+  /* transform: translateY(4px); */
   cursor: pointer;
+  background-color: white;
+  transform: translateY(-3px); /* Bounces the card upward */
+  box-shadow: 0 12px 24px rgba(0, 1, 1, 0.25); /* Deepens shadow for 3D depth */
+  transition: 0.2s ease;
 }
 
 .project-2-text{

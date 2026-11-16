@@ -4,6 +4,7 @@ import figma from './assets/figma.jpg';
 import github from './assets/github.jpg';
 import javassript from './assets/javassript.png';
 import reactjs from './assets/reactjs.jpg';
+import './Cards.css'
 
 function Cards() {
     return(
@@ -23,8 +24,8 @@ function Cards() {
                     src={html} 
                     alt="html"
                 />
-                HTML5
-                  <p>To provide clean and structured content.</p>
+                {/* HTML5
+                  <p>To provide clean and structured content.</p> */}
                 </div>
 
                 <div className="tech-card">
@@ -33,8 +34,8 @@ function Cards() {
                     src={css} 
                     alt="css"
                 />
-                CSS3
-                  <p>Styling interfaces with design in mind.</p>
+                {/* CSS3
+                  <p>Styling interfaces with design in mind.</p> */}
                 </div>
 
                 <div className="tech-card">
@@ -43,8 +44,8 @@ function Cards() {
                     src={javassript} 
                     alt="Javascript"
                 />
-                JAVASCRIPT
-                  <p>Making websites interactive, functional and dynamic.</p>
+                {/* JAVASCRIPT
+                  <p>Making websites interactive, functional and dynamic.</p> */}
                 </div>
 
                 <div className="tech-card">
@@ -54,8 +55,8 @@ function Cards() {
                     alt="react"
                 />
                 
-                REACT
-                  <p>Building reusable components for modern interfaces.</p>
+                {/* REACT
+                  <p>Building reusable components for modern interfaces.</p> */}
                 </div>
 
                 <div className="tech-card">
@@ -64,8 +65,8 @@ function Cards() {
                     src={github} 
                     alt="github"
                 />
-                GITHUB
-                  <p>Managing projects, code, changes and progress.</p>
+                {/* GITHUB
+                  <p>Managing projects, code, changes and progress.</p> */}
                 </div>
 
                 <div className="tech-card">
@@ -74,8 +75,8 @@ function Cards() {
                     src={figma} 
                     alt="figma"
                 />
-                FIGMA
-                  <p>Visualising and designing concepts before construction.</p>
+                {/* FIGMA
+                  <p>Visualising and designing concepts before construction.</p> */}
                 </div>
                 < br/>
 
@@ -83,15 +84,6 @@ function Cards() {
         </section>
     )
 }
-
-
-
-
-         
-
-
-
-
 
 
 export default Cards

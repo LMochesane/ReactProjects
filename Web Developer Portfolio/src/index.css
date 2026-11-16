@@ -84,65 +84,7 @@
   text-align: center;
 }
 
-.myExpertise {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  color: rgb(8, 11, 78);
-}
 
-.myExpertise h4{
-  text-decoration: underline;
-  font-family: Georgia, serif; /* Fixed syntax error */
-}
-
-.tech-card{
-  background-color: #D3D3D3;
-  border: 2px solid #334155;
-  box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
-  color: rgb(8, 11, 78);
-  justify-content: center;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%; /* Changed from fixed 50% + margin to 100% inside grid */
-  height: auto; /* Changed from fixed 50% to auto so text fits nicely */
-  margin-left: 0; /* Removed fixed left margin that pushed grid off-center */
-  display: grid;
-  text-align: center;
-  align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.tech-card-img{
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 0 auto;
-}
-
-.tech-card:hover{
-  background-color: white;
-  transition: 0.4s ease;
-  /* Removed visibility: hidden which was making cards disappear on hover! */
-}
-
-.cards{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Safer responsive grid syntax */
-  gap: 15px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 15px;
-  justify-content: center;
-}
-
-.tech-card p{
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 1s ease;
-}
 
 .contactMe:hover {
   box-shadow: 0 4px 12px rgba(0, 1, 1, 1);

@@ -48,18 +48,17 @@ function Projects () {
                      <h2>SprintDesk</h2>
                      {/* <br /> */}
                      <div className="projectDescription">
-                          <p>A task management web application engineered with React,
-                              Vite, custom CSS variables, and granula RBAC security scoping. Currently showcasing advanced client-side state and
-                              analytics, with an upcoming goal to integrate a C#/.NET backend.
+                          <p>A production-grade full-stack task management web application that features a React frontend,
+                            hosted on GitHub Pages and an ASP.NET Core Web API powered by Entity Framework Core and SQLite on Render.
                           </p>
                      </div>
 
                          <h3>Highlights from this project:</h3>
-                         <p>- React & Vite</p>
+                         <p>- Full-Stack ASP.NET Core & React Architecture</p>
                          <p>- Granula RBAC Security Scoping</p>
-                         <p>- State Management & Persistance</p>
+                         <p>- EF Core & SQLite Data Persistence</p>
                          {/* < br/> */}
-                         <h5>Javascript | React | LocalStorage | CSS-Grid</h5>
+                         <h5>React | Vite | ASP.NET Core Web API | EF Core | SQLite</h5>
                  </div>
 
                  <div className="project-2-image">
