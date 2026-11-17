@@ -6,6 +6,7 @@ import javascript from './assets/javascript.png';
 import reactjs from './assets/reactjs.png';
 import csharp from './assets/csharp.png';
 import dotnet from './assets/dotnet.png';
+import cors from './assets/cors.png';
 import './Cards.css';
 
 function Cards() {
@@ -49,6 +50,10 @@ function Cards() {
 
                 <div className="tech-card">
                     <img className="tech-card-img" src={github} alt="github" />
+                </div>
+
+                <div className="tech-card">
+                    <img className="tech-card-img" src={cors} alt="cors" />
                 </div>
            </div>
         </section>
