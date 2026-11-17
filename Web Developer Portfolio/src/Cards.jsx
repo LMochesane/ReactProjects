@@ -1,10 +1,12 @@
 import html from './assets/html.png';
-import css from './assets/css.jpg';
-import figma from './assets/figma.jpg';
-import github from './assets/github.jpg';
-import javassript from './assets/javassript.png';
-import reactjs from './assets/reactjs.jpg';
-import './Cards.css'
+import css from './assets/css.png';
+import figma from './assets/figma.png';
+import github from './assets/github.png';
+import javascript from './assets/javascript.png';
+import reactjs from './assets/reactjs.png';
+import csharp from './assets/csharp.png';
+import dotnet from './assets/dotnet.png';
+import './Cards.css';
 
 function Cards() {
     return(
@@ -13,77 +15,44 @@ function Cards() {
             <h4>
                 <p>MY TOOLKIT</p>
             </h4>
-            <p>Designing and engineering modern, high performance web applications.</p>
+            <p>Designing, engineering, and deploying robust , high performance enterprise applications.</p>
          </div>
 
-        
            <div className="cards">
-               <div className="tech-card">
-                <img
-                    className="tech-card-img"
-                    src={html} 
-                    alt="html"
-                />
-                {/* HTML5
-                  <p>To provide clean and structured content.</p> */}
+                <div className="tech-card">
+                 <img className="tech-card-img" src={html} alt="html" />
                 </div>
 
                 <div className="tech-card">
-                    <img
-                    className="tech-card-img"
-                    src={css} 
-                    alt="css"
-                />
-                {/* CSS3
-                  <p>Styling interfaces with design in mind.</p> */}
+                 <img className="tech-card-img" src={css} alt="css" />
                 </div>
 
                 <div className="tech-card">
-                    <img
-                    className="tech-card-img"
-                    src={javassript} 
-                    alt="Javascript"
-                />
-                {/* JAVASCRIPT
-                  <p>Making websites interactive, functional and dynamic.</p> */}
+                 <img className="tech-card-img" src={javascript} alt="javascript" />
                 </div>
 
                 <div className="tech-card">
-                    <img
-                    className="tech-card-img"
-                    src={reactjs} 
-                    alt="react"
-                />
-                
-                {/* REACT
-                  <p>Building reusable components for modern interfaces.</p> */}
+                    <img className="tech-card-img" src={reactjs} alt="reactjs" />
                 </div>
 
                 <div className="tech-card">
-                    <img
-                    className="tech-card-img"
-                    src={github} 
-                    alt="github"
-                />
-                {/* GITHUB
-                  <p>Managing projects, code, changes and progress.</p> */}
+                    <img className="tech-card-img" src={dotnet} alt="dotnet" />
                 </div>
 
                 <div className="tech-card">
-                    <img
-                    className="tech-card-img"
-                    src={figma} 
-                    alt="figma"
-                />
-                {/* FIGMA
-                  <p>Visualising and designing concepts before construction.</p> */}
+                    <img className="tech-card-img" src={csharp} alt="csharp" />
                 </div>
-                < br/>
 
-            </div>
+                <div className="tech-card">
+                    <img className="tech-card-img" src={figma} alt="figma" />
+                </div>
+
+                <div className="tech-card">
+                    <img className="tech-card-img" src={github} alt="github" />
+                </div>
+           </div>
         </section>
-    )
+    );
 }
 
-
-export default Cards
+export default Cards;

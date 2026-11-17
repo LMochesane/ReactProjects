@@ -1,65 +1,3 @@
-/* .myExpertise {
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 16px;
-  color: rgb(8, 11, 78);
-}
-
-.myExpertise h4{
-  text-decoration: underline;
-  font-family: Georgia, serif
-}
-
-.tech-card{
-  background-color: #D3D3D3;
-  border: 2px solid #334155;
-  box-shadow: 0 4px 12px rgba(0, 1, 1, 1);
-  color: rgb(8, 11, 78);
-  justify-content: center;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%; 
-  height: auto;
-  margin-left: 0;
-  display: grid;
-  text-align: center;
-  align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.tech-card-img{
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 0 auto;
-}
-
-.tech-card:hover{
-  background-color: white;
-  transition: 0.4s ease;
-}
-
-.cards{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 15px;
-  justify-content: center;
-}
-
-.tech-card p{
-  visibility: visible;
-  opacity: 1;
-  transition: opacity 1s ease;
-} */
-
-
-
-
 .myExpertise {
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -67,63 +5,47 @@
   color: rgb(8, 11, 78);
 }
 
-.myExpertise h4{
+.myExpertise h4 {
   text-decoration: underline;
   font-family: Georgia, serif;
 }
 
-.tech-card{
-  background-color: #D3D3D3;
-  border: 2px solid #334155;
-  box-shadow: 0 4px 12px rgba(0, 1, 1, 0.15);
-  color: rgb(8, 11, 78);
-  justify-content: center;
-  text-decoration: none;
-  font-size: 14px;
-  padding: 20px;
-  border-radius: 10px;
-  width: 100%;
-  height: auto;
-  margin-left: 0;
+.cards {
   display: grid;
-  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 15px;
+  justify-content: center;
   align-items: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-  /* Applies continuous independent bouncing animation */
+}
+
+.tech-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  /* Applies continuous independent bouncing animation to the container */
   animation: float-bounce 3s ease-in-out infinite;
 }
 
-/* Stagger the bounce timing for each card so they don't move in rigid unison */
+/* Stagger the bounce timing for each individual card container */
 .cards .tech-card:nth-child(1) { animation-delay: 0s; }
 .cards .tech-card:nth-child(2) { animation-delay: 0.3s; }
 .cards .tech-card:nth-child(3) { animation-delay: 0.6s; }
 .cards .tech-card:nth-child(4) { animation-delay: 0.9s; }
 .cards .tech-card:nth-child(5) { animation-delay: 1.2s; }
 .cards .tech-card:nth-child(6) { animation-delay: 1.5s; }
+.cards .tech-card:nth-child(7) { animation-delay: 1.8s; }
+.cards .tech-card:nth-child(8) { animation-delay: 2.1s; }
 
-.tech-card-img{
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Hover effects have been completely removed */
-
-.cards{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px 15px; /* Added slight top/bottom padding to give room for the bounce */
-  justify-content: center;
-}
-
-.tech-card p{
-  visibility: visible;
-  opacity: 1;
+.tech-card-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; /* Ensures the image itself is strictly circular */
+  object-fit: cover;  /* Prevents image distortion */
+  box-shadow: 0 4px 12px rgba(0, 1, 1, 2); /* Optional: gives depth to the circle */
 }
 
 /* Keyframes for the continuous bouncing/floating effect */
@@ -132,6 +54,6 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-8px); /* How high the card floats up */
+    transform: translateY(-10px); /* Adjust height of the bounce here */
   }
 }
