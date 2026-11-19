@@ -1,0 +1,8 @@
+### Login as seeded Admin
+POST http://localhost:5190/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@cinvoice.local",
+  "password": "Admin012!"
+}

@@ -39,6 +39,7 @@
 .cards .tech-card:nth-child(6) { animation-delay: 1.5s; }
 .cards .tech-card:nth-child(7) { animation-delay: 1.8s; }
 .cards .tech-card:nth-child(8) { animation-delay: 2.1s; }
+.cards .tech-card:nth-child(9) { animation-delay: 2.4s; }
 
 .tech-card-img {
   width: 90px;

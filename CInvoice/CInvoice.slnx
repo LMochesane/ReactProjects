@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CInvoice.Api/CInvoice.Api.csproj" />
+  <Project Path="CInvoice.Client/CInvoice.Client.csproj" />
+  <Project Path="CInvoice.Shared/CInvoice.Shared.csproj" />
+</Solution>
